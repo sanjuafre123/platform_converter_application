@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:platform_converter_app/provider/platform_change_controller.dart';
-import 'package:platform_converter_app/adaptives/add_screen.dart';
 import 'package:provider/provider.dart';
 
-import '../../adaptives/call_screen.dart';
-import '../../adaptives/chat_screen.dart';
-import '../../adaptives/setting_screen.dart';
+import '../../android_ios_pages/add_screen.dart';
+import '../../android_ios_pages/call_screen.dart';
+import '../../android_ios_pages/chat_screen.dart';
+import '../../android_ios_pages/setting_screen.dart';
 
 class AndroidUi extends StatelessWidget {
   const AndroidUi({super.key});

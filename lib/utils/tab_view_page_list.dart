@@ -1,7 +1,7 @@
-import 'package:platform_converter_app/adaptives/add_screen.dart';
-import 'package:platform_converter_app/adaptives/call_screen.dart';
-import 'package:platform_converter_app/adaptives/chat_screen.dart';
-import 'package:platform_converter_app/adaptives/setting_screen.dart';
+import '../android_ios_pages/add_screen.dart';
+import '../android_ios_pages/call_screen.dart';
+import '../android_ios_pages/chat_screen.dart';
+import '../android_ios_pages/setting_screen.dart';
 
 List tabViewList = [
   const AddUsers(),
