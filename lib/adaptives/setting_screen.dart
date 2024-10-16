@@ -1,12 +1,12 @@
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:platform_converter_app/view/screens/components/my_text_field.dart';
+import 'package:platform_converter_app/view/screens/components/text_field.dart';
 import 'package:provider/provider.dart';
 import '../provider/platform_change_controller.dart';
 import '../provider/platform_provider.dart';
 import '../provider/theme_controller.dart';
-import '../view/screens/components/my_cupertino_text_field.dart';
+import '../view/screens/components/cupertino_text_field.dart';
 
 class SettingScreen extends StatelessWidget {
   const SettingScreen({super.key});
@@ -56,7 +56,7 @@ class SettingScreen extends StatelessWidget {
                                         File(value.profile),
                                       )
                                     : const NetworkImage(
-                                        'https://www.pngkit.com/png/detail/25-258694_cool-avatar-transparent-image-cool-boy-avatar.png'),
+                                        'https://www.pngkit.com/png/detail/25-258694_cool-avatar-transparent-image-cool-boy-avatar.png') ,
                               ),
                             ),
                           ],
@@ -75,6 +75,7 @@ class SettingScreen extends StatelessWidget {
                         controller: platformProviderTrue.txtCurrentUserChat,
                         icons: CupertinoIcons.chat_bubble_2,
                       ),
+                      SizedBox(height: 20,),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
@@ -90,6 +91,7 @@ class SettingScreen extends StatelessWidget {
                           ),
                         ],
                       ),
+                      SizedBox(height: 20,),
                     ],
                   ),
                 )

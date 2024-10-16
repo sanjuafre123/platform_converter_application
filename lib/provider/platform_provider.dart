@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:platform_converter_app/helper/database_helper.dart';
+import 'package:platform_converter_app/helper/helper.dart';
 import 'package:platform_converter_app/modal/user_modal.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

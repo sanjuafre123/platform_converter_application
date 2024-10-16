@@ -6,8 +6,8 @@ import 'package:platform_converter_app/provider/theme_controller.dart';
 import 'package:provider/provider.dart';
 
 import '../provider/platform_provider.dart';
-import '../view/screens/components/my_cupertino_text_field.dart';
-import '../view/screens/components/my_text_field.dart';
+import '../view/screens/components/cupertino_text_field.dart';
+import '../view/screens/components/text_field.dart';
 
 class AddUsers extends StatelessWidget {
   const AddUsers({super.key});
@@ -39,7 +39,7 @@ class AddUsers extends StatelessWidget {
                             ? FileImage(
                                 File(value.profile),
                               )
-                            : const NetworkImage(
+                            : const AssetImage(
                                 'https://www.pngkit.com/png/detail/25-258694_cool-avatar-transparent-image-cool-boy-avatar.png'),
                       ),
                     ),
@@ -125,7 +125,7 @@ class AddUsers extends StatelessWidget {
                 }),
               ),
               SizedBox(
-                height: height * 0.23,
+                height: height * 0.17,
               ),
               CupertinoButton(
                 onPressed: () {

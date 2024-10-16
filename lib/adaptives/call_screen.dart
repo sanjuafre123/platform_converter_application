@@ -34,7 +34,7 @@ class CallScreen extends StatelessWidget {
                 child: CupertinoListTile(
                   leading: CircleAvatar(
                     backgroundImage: (userData[index].profile ==
-                        'https://www.pngkit.com/png/detail/25-258694_cool-avatar-transparent-image-cool-boy-avatar.png')
+                        'https://img.freepik.com/premium-vector/illustration-web-development-programmer-coding-website_746655-2851.jpg')
                         ? NetworkImage(userData[index].profile)
                         : FileImage(
                       File(userData[index].profile),
@@ -65,7 +65,7 @@ class CallScreen extends StatelessWidget {
               return ListTile(
                 leading: CircleAvatar(
                   backgroundImage: (userData[index].profile ==
-                      'https://www.pngkit.com/png/detail/25-258694_cool-avatar-transparent-image-cool-boy-avatar.png')
+                      'https://img.freepik.com/premium-vector/illustration-web-development-programmer-coding-website_746655-2851.jpg')
                       ? NetworkImage(userData[index].profile)
                       : FileImage(
                     File(userData[index].profile),

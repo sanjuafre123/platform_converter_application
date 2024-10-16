@@ -6,8 +6,8 @@ import 'package:platform_converter_app/provider/platform_change_controller.dart'
 import 'package:platform_converter_app/provider/theme_controller.dart';
 import 'package:provider/provider.dart';
 import '../provider/platform_provider.dart';
-import '../view/screens/components/my_cupertino_text_field.dart';
-import '../view/screens/components/my_text_field.dart';
+import '../view/screens/components/cupertino_text_field.dart';
+import '../view/screens/components/text_field.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});
@@ -53,7 +53,7 @@ class ChatScreen extends StatelessWidget {
                                 CircleAvatar(
                                   backgroundImage: (userData[index].profile ==
                                           'https://www.pngkit.com/png/detail/25-258694_cool-avatar-transparent-image-cool-boy-avatar.png')
-                                      ? NetworkImage(userData[index].profile)
+                                      ? NetworkImage(userData[index].profile,)
                                       : FileImage(
                                           File(userData[index].profile),
                                         ),
@@ -75,7 +75,7 @@ class ChatScreen extends StatelessWidget {
                                 Text(
                                   userData[index].chatConversation,
                                   style: const TextStyle(
-                                    fontSize: 18,
+                                    fontSize: 19,
                                   ),
                                 ),
                                 Row(
@@ -452,7 +452,7 @@ class ChatScreen extends StatelessWidget {
                   title: Text(value.userData[index]['name']),
                   subtitle: Text(value.userData[index]['chatConversation']),
                   trailing: Text(
-                      '${value.userData[index]['date']}, ${value.userData[index]['time']}'),
+                      '${value.userData[index]['date']}\n      ${value.userData[index]['time']}',style: TextStyle(fontSize: 16),),
                 );
               });
             },

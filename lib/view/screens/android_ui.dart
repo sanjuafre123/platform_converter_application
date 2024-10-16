@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:platform_converter_app/provider/platform_change_controller.dart';
-import 'package:platform_converter_app/adaptives/add_users.dart';
+import 'package:platform_converter_app/adaptives/add_screen.dart';
 import 'package:provider/provider.dart';
 
 import '../../adaptives/call_screen.dart';
