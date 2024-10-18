@@ -1,5 +1,13 @@
 # Platform Converter App
 
+
+<h2 align="center">1.  Platform Converter App </h2>
+
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/58e56502-6eaf-427c-85bc-2cea8e07d719" type="video/mp4"> 
+</video>
+</div>
+
 ## Android Light Theme
 <img src="https://github.com/user-attachments/assets/58c80725-7f11-4917-ab33-eaeeeaf398cc" height=65% width=22%>
 <img src="https://github.com/user-attachments/assets/aed2106a-703a-4f0b-b12e-cadd23b1a60d" height=65% width=22%>
