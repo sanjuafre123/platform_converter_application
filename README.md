@@ -44,14 +44,5 @@
 <img src="https://github.com/user-attachments/assets/54d01de9-b394-4a6e-816b-72d12bdff67f" height=65% width=22%>
 <img src="https://github.com/user-attachments/assets/e83b6d2c-961c-4b70-9224-0d4abca53b43" height=65% width=22%>
 
-
-
-
-
-
-
-
-
-
-
-
+# Description :
+```The Platform Converter App allows users to explore and compare Material Design and Human Interface Design in Flutter apps. With a single tap, users can switch between these design languages, showcasing differences in layout, typography, color schemes, and more. Built using Flutter, the app is cross-platform for Android and iOS, supports multiple languages, and includes features like profile management, contact functionality, and persistent theme saving. It provides an interactive learning experience for designers and developers.```
