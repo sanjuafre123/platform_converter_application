@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:platform_converter_app/utils/tab_view_page_list.dart';
+import 'package:platform_converter_app/utils/tab_list.dart';
 import 'package:provider/provider.dart';
 import '../../provider/platform_change_controller.dart';
 import '../../provider/platform_provider.dart';
