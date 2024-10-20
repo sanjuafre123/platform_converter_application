@@ -9,7 +9,6 @@ import '../../android_ios_pages/setting_screen.dart';
 
 class AndroidUi extends StatelessWidget {
   const AndroidUi({super.key});
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
